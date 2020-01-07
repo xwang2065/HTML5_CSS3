@@ -1,0 +1,191 @@
+* {margin: 0; padding: 0;}
+html {
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 965px;
+	margin: 15px auto;
+}
+
+/* the style for header */
+header {
+	background-image: url(../images/header_bcg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 400px;
+	color: black;
+}
+header img {
+	width: 270px;
+	height: 270px;
+	margin-top: 30px;
+	margin-left: 50px;
+	border: 1px solid black;
+	border-radius: 20px 0 20px 0;
+}
+header h1 {
+	font-size: 260%;
+	text-align: left;
+	padding-top: 10px;
+	margin-left: 50px;
+	text-shadow: -3px -3px 4px gray;
+}
+header h2 {
+	text-align: left;
+	margin-left: 50px;
+}
+
+/* the styles for the operation of the menu */
+#nav_menu ul {
+	list-style-type: none;
+	position: relative;
+	}
+#nav_menu ul li { 
+	float:left;
+	}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	}
+#nav_menu ul ul li {
+	float: none;
+	position: relative;
+	}
+#nav_menu ul ul li ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	}
+#nav_menu ul li:hover > ul {
+	display: block;
+	}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+	}
+/* the style for formatting the menu */
+#nav_menu ul{
+	margin: 0;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 240px;
+	padding: 1em 0;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;	
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+#nav_menu ul li.thirditem ul a {
+	border-right: 1px solid white;
+}
+#nav_menu ul li.lastitem a {
+	border-right: 1px solid white;
+}
+#nav_menu ul li a.current {
+	color: #4286f4;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: #a0aeb2;
+}
+
+/* the style for vertical navigation menu */
+#nav_list {
+	background-color: black;
+	width: 180px;
+	height: 860px;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-top: 65px;
+	border: 2px solid white;
+	border-radius: 0 20px 20px 0;
+}
+#nav_list ul {
+	list-style-type: none;
+}
+#nav_list ul figure {
+	float: left;
+}
+#nav_list ul figcaption {
+	font-weight: bold;
+	display: block;
+	color: white;
+	padding-left: 35px;
+	padding-bottom: 1em;
+	text-align: center;
+}
+#nav_list ul figcaption:hover, #nav_list ul figcaption:focus {
+	color:#a0aeb2;
+}
+#nav_list img {
+	height: 120px;
+	width: 120px;
+	vertical-align: top;
+	margin: 30px 10px 10px 30px;
+	border: 2px solid white;
+	border-radius: 30px;
+}
+
+/* the styles for footer*/
+footer {
+    clear: both;
+	background-color: black;
+	border: 1px solid white;
+}
+footer p {
+    text-align: center;
+    padding: 1em 0;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

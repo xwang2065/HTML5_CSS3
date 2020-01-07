@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Marshmello</title>
+		<link rel="shortcut icon" href="../images/marshmello.ico">
+		<link rel="styelsheet" href="../styles/normalize.css">
+		<link rel="stylesheet" href="../styles/main.css">
+		<link rel="stylesheet" href="../styles/feedback.css">
+	</head>
+	
+	<body>
+		<header>
+			<img src="../images/feedback_header.jpg" title="feedback_header" alt="feedback_header">
+			<h1>Marshmello</h1>
+			<h2>Feedback Page</h2>
+		</header>
+		
+		<nav id="nav_menu">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="image.html">Studio Albums</a></li>
+				<li class="thirditem"><a href="table.html">Tour Schedule</a>
+					<ul>
+						<li><a href="#">On April</a></li>
+						<li><a href="#">On May</a>
+							<ul>
+								<li><a href="#">Las Vegas</a></li>
+								<li><a href="#">International Tour</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="lastitem"><a href="feedback.html" class="current">Feedback</a></li>
+			</ul>
+		</nav>
+		
+		<aside id="nav_list">
+			<ul>
+				<li>
+					<a href="../index.html">
+						<figure>
+							<img src="../images/thumbnails/home.jpg" title="Home" alt="Home">
+							<figcaption>Home</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a href="image.html">
+						<figure>
+							<img src="../images/thumbnails/albums.jpg" title="Studio Albums" alt="Studio Albums">
+							<figcaption>Studio Albums</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a href="table.html">
+						<figure>
+							<img src="../images/thumbnails/tour.jpg" title="Tour Schedule" alt="Tour Schedule">
+							<figcaption>Tour Schedule</figcaption>
+						</figure>
+					</a>
+				</li>
+				<li>
+					<a href="feedback.html">
+						<figure>
+							<img src="../images/thumbnails/feedback.jpg" title="Feedback" alt="Feedback">
+							<figcaption>Feedback</figcaption>
+						</figure>
+					</a>
+				</li>
+			</ul>
+		</aside>
+		
+		<main>
+			<form action="#" method="get" name= "feedback_page">
+				<fieldset id="feedback_form">
+					<legend>Your Feedback</legend>
+					
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" required><br>
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email" required><br><br>
+					
+					<p>Country:</p>
+					<select class="option" name="country">
+						<optgroup label="North America">
+							<option value="usa">USA</option>
+							<option value="canada">Canada</option>
+							<option value="other">Other</option>
+						</optgroup>
+						<optgroup label="Europe">
+							<option value="uk">UK</option>
+							<option value="germany">Germany</option>
+							<option value="poland">Poland</option>
+							<option value="other">Other</option>
+						</optgroup>
+						<optgroup label="East Asia">
+							<option value="china">PR China</option>
+							<option value="japan">Japan</option>
+							<option value="korea">Korea</option>
+							<option value="other">Other</option>
+						</optgroup>	
+						<optgroup label="Other Area">
+							<option value="rusia">Rusia</option>
+							<option value="other">Other</option>
+						</optgroup>
+					</select><br>
+					
+					<p>Gender</p>
+					<select class="option" name="gender" size="3">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value="other">Other</option>
+					</select><br>
+					
+					<p>Comments:</p>
+					<textarea name="comments" placeholder="Please enter suggestions about my website."></textarea>
+				</fieldset>
+				
+				<fieldset id="buttons">
+					<legend>Submit Your Facebook</legend>
+					<input type="submit" id="submit" value="Submit"><br>
+					<input type="reset" id="reset" value="Reset Field"><br>
+				</fieldset>
+			</form>	
+		</main>
+		
+		<aside id="sidebarR">
+			<fieldset id="other_form">
+				<legend>Other feedback</legend>
+					<h4>How do you feel about my site?</h4><br>
+					<span>
+							<input type="checkbox" name="option1" value="content">Rich in Content<br>
+					</span>
+					<span>
+							<input type="checkbox" name="option2" value="structure">Clear Structure<br>
+					</span>
+					<span>
+							<input type="checkbox" name="option3" value="color">Proper Color<br><br>
+					</span>
+					<h4>Will you visit my site again?</h4><br>
+					<span>
+							<input type="radio" name="choose" value="yes">Yes<br>
+					</span>
+					<span>
+							<input type="radio" name="choose" value="no">No
+					</span>
+			</fieldset>
+		</aside>
+	
+		<footer>
+			<p>&copy; 2019 Xiaoyang Wang</p>
+		</footer>
+
+	</body>
+</html>

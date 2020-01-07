@@ -1,0 +1,87 @@
+/* the style for main */
+main {
+	background-color: white;
+	float: left;
+	width: 593px;
+	height: 925px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+.bottom_border {
+    height: 307px;
+    margin-left: 10px;
+    text-align: left;
+    border-bottom: 2px solid black;
+    width: 573px;
+}
+.bottom_border figure {
+    float: left;
+}
+.bottom_border p {
+    font-weight: bold;
+}
+
+.bottom_border img {
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+	vertical-align: middle;
+}
+.bottom_border img:hover {
+	height:307px;
+}
+
+.bottom_border figcaption {
+    display: inline-block;
+	width: 200px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+/* the style for sidebarR */
+#sidebarR h3 {
+	margin-top: 20px; 
+	text-align:  center;
+}
+#sidebarR {
+	background-color: white;
+	width: 180px;
+	height: 925px;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border: 2px solid black;
+	border-radius: 20px 0 0 20px;
+}
+#sidebarR ul {
+	list-style-type: none;
+}
+#sidebarR ul figure {
+	float: left;
+}
+#sidebarR ul figcaption {
+	font-weight: bold;
+	display: block;
+	color: black;
+	padding-bottom: 1em;
+	text-align: center;
+}
+#sidebarR ul figcaption:hover, #sidebarR ul figcaption:focus {
+	color: #a0aeb2;
+}
+#sidebarR img {
+	height: 120px;
+	width: 120px;
+	vertical-align: top;
+	margin: 30px 10px 10px 28px;
+	border: 2px solid black;
+	border-radius: 30px;
+}

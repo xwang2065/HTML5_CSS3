@@ -1,0 +1,107 @@
+/* the style for main */
+main {
+	background-color: white;
+	float: left;
+	width: 593px;
+	height: 890px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 35px;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+#feedback_form {
+    width: 510px;
+    height: 570px;
+	margin: 20px;
+	padding: 50px;
+	float: left;
+	border-radius:0 30px 30px 30px;
+}
+
+main form legend {
+    font-size: 120%;
+    font-style: bold;
+    text-align: center;
+    color: #2a2d2e(95, 190, 228);
+}
+main form label {
+    float: left;
+    text-align: right;
+    width: 60px;
+    font-style: bold;
+}
+main form input {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    width: 270px;
+}
+main form input:focus {
+    border: 2px solid black(33, 125, 161)
+}
+#feedback_form p {
+    padding-left: 5px;
+    margin-top: 1em;
+    margin-bottom: 5px;
+}
+.option {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 170px;
+}
+main textarea {
+    height: 20em;
+    width: 32em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+#buttons {
+	width: 530px;
+    margin: 20px;
+	clear: both;
+	border-radius: 30px 30px 0 30px;
+}
+#buttons input{
+    background-color: rgb(95, 190, 228);
+	border: 1px solid rgb(5, 16, 20);
+	border-radius: 10px 0 10px 0;
+    margin-top: 10px;
+    padding: 5px 0;
+}
+#submit {
+	margin-left: 180px;
+}
+#reset {
+    margin-left: 280px;
+}
+#submit:hover, #reset:hover {
+    box-shadow: 2px 2px 0 rgb(5, 16, 20);
+}
+
+/* the style for sidebarR */
+#sidebarR {
+	background-color: white;
+	width: 180px;
+	height: 925px;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border: 2px solid black;
+	border-radius: 20px 0 0 20px;
+}
+#other_form {
+    width: 100px;
+    height: 280;
+    margin-top: 190px;
+	padding: 60px 10px;
+	float: right;
+	border-radius: 30px 0 0 30px;
+}
+#other_form span {
+    white-space: nowrap;
+    display: inline-block;
+}
+#other_form span input {
+    width: 25px;
+}
+
